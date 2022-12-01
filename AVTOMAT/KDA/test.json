@@ -1,0 +1,38 @@
+{
+  "Alphabet": [
+    "1",
+    "2",
+    "3"
+  ],
+  "States": [
+    {
+      "Name": "a",
+      "IsEndState": "False"
+    },
+    {
+      "Name": "b",
+      "IsEndState": "False"
+    },
+    {
+      "Name": "c",
+      "IsEndState": "True"
+    }
+  ],
+  "Transitions": [
+    {
+      "StartState": "a",
+      "EndState": "b",
+      "Condition": "1"
+    },
+    {
+      "StartState": "a",
+      "EndState": "c",
+      "Condition": "2"
+    },
+    {
+      "StartState": "b",
+      "EndState": "c",
+      "Condition": "3"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mwbGF/1muTrtt+aEisaHvs6cKC5Vj/VNn12VvzJJiLHfCqXVRFss6sscszqjtFnIkUKw4TbtrGD42wTmFcWsxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sergey\\source\\repos\\AVTOMAT\\AVTOMAT\\AVTOMAT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

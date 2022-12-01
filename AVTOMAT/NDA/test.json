@@ -1,0 +1,40 @@
+{
+  "Alphabet": [
+    "1",
+    "0",
+    " "
+  ],
+  "States": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "BeginState": "a",
+  "FinalStates": [
+    "d"
+  ],
+
+  "Transitions": [
+    {
+      "StartState": "a",
+      "EndState": "b",
+      "Symbol": "0"
+    },
+    {
+      "StartState": "a",
+      "EndState": "c",
+      "Symbol": "0"
+    },
+    {
+      "StartState": "a",
+      "EndState": "d",
+      "Symbol": "1"
+    },
+    {
+      "StartState": "d",
+      "EndState": "b",
+      "Symbol": " "
+    }
+  ]
+}

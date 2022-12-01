@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YzBpWF93taSJSOeEnfgzk/iF4CLO7s8447D+3VRePMc2FWcw4+Gm6f2Y2ALIAfRjjKugydcS8S8pjIYh4hQieg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sergey\\source\\repos\\AVTOMAT\\KDA\\KDA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sergey\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

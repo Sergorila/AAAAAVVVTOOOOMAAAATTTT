@@ -1,0 +1,1 @@
+{"Alphabet":["1","0"," "],"States":[{"Name":"a","IsEndState":false},{"Name":"d+b","IsEndState":true},{"Name":"d+b-c","IsEndState":false}],"Transitions":[{"StartState":"a","EndState":"d+b","Condition":"1"},{"StartState":"a","EndState":"d+b-c","Condition":"0"}]}
