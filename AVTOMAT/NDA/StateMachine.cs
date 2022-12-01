@@ -446,10 +446,10 @@ namespace NDA
                             {
                                 if (stateMachine.Transitions.Where(t => t.StartState == startState && t.Symbol == alp).Select(y => y.EndState).ToList().Count != 0)
                                 {
-                                    var endState = String.Join("-", stateMachine.Transitions.Where(t => t.StartState == startState && t.Symbol == alp).Select(y => y.EndState).ToList());
+                                    var endState = String.Join("+", stateMachine.Transitions.Where(t => t.StartState == startState && t.Symbol == alp).Select(y => y.EndState).ToList());
                                     newTransitions.Add(new Transition { StartState = startState, EndState = endState, Symbol = alp });
 
-                                    foreach (var st in endState.Split('-'))
+                                    foreach (var st in endState.Split('+'))
                                     {
                                         NewTransition(st, ref newTransitions, stateMachine);
                                     }
